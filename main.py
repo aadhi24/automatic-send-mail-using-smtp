@@ -7,8 +7,8 @@ PLACEHOLDER = "[NAME]"
 lists = ['letter_1.txt','letter_2.txt']
 ########################################################################
 
-my_email = "kichukip80@gmail.com"
-pass_word = "adithyanbg"
+my_email = "kichukip@gmail.com"
+pass_word = "*********"
 
 def sendmail(email, subject):
     with smtplib.SMTP('smtp.gmail.com') as connection:
